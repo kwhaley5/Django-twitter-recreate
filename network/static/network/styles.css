@@ -1,0 +1,181 @@
+body {
+    padding: 40px;
+}
+
+label {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.post-container {
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.create-post {
+    border-style:groove;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    align-content: left;
+}
+
+.create-post > label {
+    font-size: 36px;
+}
+
+#new_post,
+.edit-submit {
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+.post {
+    font-size: 20px
+}
+
+.user {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.user > span:last-of-type {
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+}
+
+.time {
+    color: lightgray;
+}
+
+.likes > svg {
+    width: 20px;
+}
+
+.edit {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.tweet{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    align-content: left;
+    padding: 1rem 0;
+}
+
+.tweet > input {
+    width: 5rem;
+        margin-top: 1rem;
+}
+
+.profile-pic > img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.username {
+    padding-bottom: 1rem;
+}
+
+.username > span:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+.username > span:nth-of-type(2) {
+    color: rgb(182, 182, 182);
+    
+}
+
+.following {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.following >span:first-of-type {
+    padding-right: 2rem;
+}
+
+.following > span:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.following > span:nth-of-type(2) >b {
+    padding-left: 5px;
+}
+
+.plus {
+    display: block;
+    width: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: lightgray;
+    margin-left: 1rem;
+}
+
+.check {
+    display: block;
+    width: 20px;
+    stroke: green;
+    margin-left: 1rem;
+}
+
+.hide {
+    display: none
+}
+
+.follow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-tweet {
+    display: none;
+}
+
+.edit-tweet > div {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.paginator {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
